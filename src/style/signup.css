@@ -1,0 +1,59 @@
+.input-sign-up{
+    width: 50%;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 1rem;
+    border: none !important;
+    border-bottom: 2px solid #e6e3e3 !important ;
+}
+.input-sign-up:focus{
+    outline: 0px !important;
+}
+.sign-up-container{
+    padding-left: 6rem;
+    padding-top: 4rem;
+}
+.submit-sign-up-btn{
+    width: 50%;
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+.signup-with-google-btn{
+    padding-left: 6rem;  
+}
+.signup-with-google-btn button{
+     padding: 0.3rem 3rem;
+}
+.input-sign-up{
+    width: 50% !important;
+}
+.submit-sign-up-btn a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.login-text-have-an-account-container{
+    width: 75%;
+}
+@media (max-width : 480px) and (max-width:1024px) {
+    .signup-with-google-btn{
+        padding-left: 3rem ;
+        width: 100% !important;
+    }
+    .signup-with-google-btn button{
+        padding: 0.3rem 1.5rem !important;  
+    }
+    .submit-sign-up-btn{
+        width: 100%;
+    }
+    .login-text-have-an-account-container{
+        width: 100%;
+    }
+ 
+    .sign-up-container{
+        padding-left: 0rem !important;
+    }
+    .form-control{
+        width: 100% !important;
+    }
+
+}

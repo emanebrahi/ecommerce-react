@@ -1,0 +1,20 @@
+.slick-slide .item-category{
+    height: 200px !important; 
+    background-color: #ffffff !important;
+}
+.category{
+    margin-top: 3rem;
+    border: 1px solid gray;
+    text-align: center;
+    width: 90%;
+    transition: all 1s ;
+
+}
+.category:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.category:hover svg{
+    fill: white;
+    stroke:white
+}

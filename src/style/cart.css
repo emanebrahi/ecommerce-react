@@ -1,0 +1,7 @@
+.table-cart tr {
+  box-shadow: 2px 2px 5px 5px #f5f5f5;
+}
+.table-cart {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}

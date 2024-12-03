@@ -1,0 +1,10 @@
+.form-check-input:checked {
+    background-color: black !important;
+    border-color: black !important;
+}
+.form-check-input:checked:focus {
+    box-shadow: none !important;
+}
+.table-checkout {
+    border-spacing: 0px ;
+  }

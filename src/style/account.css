@@ -1,0 +1,26 @@
+.account-list {
+  list-style: none;
+  padding: 0;
+}
+
+.account-list li {
+  cursor: pointer;
+  padding: 5px 0;
+  color: #a4a4a4;
+}
+.account-list li.active {
+  color: #db4444;
+}
+.account-form{
+  padding: 2.5rem;
+  background-color: white !important;
+  box-shadow: 2px 2px 5px 5px #f5f5f5;
+}
+.account-form input{
+  margin-bottom: 10px;
+  background-color: #f7f1f1;
+  border: 0px ;
+}
+.account-form input:focus{
+  box-shadow: none;
+}

@@ -1,0 +1,256 @@
+.overlay{
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.124);
+}
+.image-slider-description{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 85%;
+  padding: 3rem;
+}
+.image-slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.carousel-item {
+  width: 100%;
+  overflow: hidden !important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border: 2px solid white !important;
+  border-radius: 50%;
+  background-color: #5b5a5a !important;
+  opacity: 0.9;
+  transition: opacity 0.9s ease;
+}
+.carousel-indicators .active {
+  background-color: #db4444 !important;
+}
+
+
+/* sliderhome.css */
+
+.container {
+  overflow: hidden; 
+}
+.products-container {
+  margin-top: 1rem !important;
+
+}
+.slick-slide {
+  margin: 0 !important; 
+  padding: 0 !important;
+  /* height: 380px !important;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item-product{
+  height: 380px; 
+  justify-content: space-between;
+  position: relative;
+
+}
+.slider-products-container{
+position: relative;
+}
+.add-to-cart{
+  display: none !important ;
+   position: absolute; 
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);  
+}
+.slider-products-container:hover .add-to-cart{
+  display: block !important;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: rgb(0, 0, 0) !important;
+  background: #d4d2d2 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+.slick-prev {
+  top: -20px !important;
+  left: 65rem !important;
+}
+.slick-next {
+  top: -20px !important;
+  left: 67rem;
+}
+
+.todays-title {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  height: 40px;
+  font-size: 12px;
+  color: #db4444;
+  display: flex;
+  align-items: center;
+}
+.todays-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #db4444;
+  border: 1px solid #db4444;
+  border-radius: 5px;
+  width: 20px;
+  height: 40px;
+}
+.word-timer {
+  display: flex;
+  margin-left: 13rem;
+  font-size: 10px;
+}
+.word-timer p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.discount-off {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #db4444;
+  border-radius: 5px;
+  padding: 5px;
+  width: 41px;
+  text-align: center;
+  background-color: #db4444;
+  color: white;
+}
+.icons {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  font-size: 20px;
+}
+.items-timer-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.flash-sales-title {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.items-field-container {
+  display: flex;
+  align-items: center;
+}
+.item-field{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  background-color: white;
+  border: 1px solid white;
+  padding: 0px 10px;
+  border-radius: 50%;
+
+}
+.item-field p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.item-field h5 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+.separator {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #dc3545;
+  margin: 1rem 0.5rem;
+}
+.seperator-selling{
+  display: none;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+  .todays-title{
+    margin-bottom: 0px ;
+  }
+  .flash-sales-title {
+    text-align: left;
+    margin-top: 1rem;
+  }
+  .items-timer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+  .container {
+    padding: 0;
+  }
+  .item-product{
+    height: 400px;
+  }
+  .slick-slide {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .slick-prev {
+    top: -20px !important;
+    left: 18rem !important;
+  }
+  .slick-next {
+    top: -20px !important;
+    left: 20rem;
+  }
+  .separator {
+    margin: 1rem 0;
+  }
+  .item-field{
+    margin-top: 1rem;
+  }
+  .item-field h5{
+    padding: 0;
+    margin: 0 !important;
+  }
+  .rate{
+      justify-content: center;
+
+  }
+}
+
+

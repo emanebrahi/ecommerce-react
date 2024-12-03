@@ -1,0 +1,33 @@
+.footer-container{
+    padding-top: 2rem;
+}
+.qrcode{
+    width: 100%;
+}
+.footer-title{
+    margin: 1rem  0rem;
+}
+@media (max-width: 480px)  and (max-width:1024px){
+    .container {
+        text-align: center;
+        padding-top: 2px;
+    }
+   .container h5{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem !important;
+   }
+    .images-footer-container .qrcode {
+        width: 50%;
+        margin-bottom: 3px;
+     
+    }
+    .images-footer-container .store{
+        width:50%;
+        transform: translate(50%);
+        height: 50px;
+    }
+    .items-timer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

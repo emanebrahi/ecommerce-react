@@ -1,0 +1,49 @@
+.product-image{
+    margin: auto;
+    width: 75%;
+    padding: 0.5rem 3rem;
+    overflow: hidden;
+}
+.product-card{
+height: 230px !important;
+}
+.product-card-one{
+    height: 480px;
+}
+.shopnow-jewell{
+    width: 25%;
+}
+.overlay-content{
+    padding: 1rem;
+    width: 100%;
+    overflow: hidden;
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.224);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+@media (max-width: 480px) {
+    .featured-title{
+       margin-top: 30rem;
+    }
+    .shopnow-jewell{
+        width: 50%;
+    }
+    .overlay-content{
+        align-items: flex-start;
+
+    }
+   
+}
+@media (min-width: 480px)  and (max-width:1024px){
+    .featured-title{
+       margin-top: 20rem;
+    }
+   
+}
